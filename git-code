@@ -1,0 +1,71 @@
+Microsoft Windows [Version 10.0.19042.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Don-Desktop>git --version
+git version 2.31.1.windows.1
+
+C:\Users\Don-Desktop>cd\
+
+C:\>code
+
+C:\>git config --global user.name tansola
+
+C:\>git config --global user.email tansola@gmail.com
+
+C:\>git config --global core.editor "code --wait"
+
+C:\>git config --global -e
+
+C:\>git config --global core.autocrlf true
+
+C:\>cd 2010
+
+C:\2010>cd\
+
+C:\>cd tansola
+
+C:\Tansola>git init
+Initialized empty Git repository in C:/Tansola/.git/
+
+C:\Tansola>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Tansola>add .
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Tansola>git add .
+
+C:\Tansola>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  
+
+C:\Tansola>git status
+On branch master
+
+No commits yet
+
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Demo.aspx.cs
+
+
+C:\Tansola>git commit -m "My initial commit"
+[master (root-commit) 5afc20f] My initial commit
+ 27 files changed, 3767 insertions(+)
+
+
+C:\Tansola>
